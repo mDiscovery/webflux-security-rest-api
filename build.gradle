@@ -22,6 +22,9 @@ dependencies {
 
 	implementation "org.flywaydb:flyway-core:$flywayDbVersion"
 
+	implementation "org.mapstruct:mapstruct:$mapStructVersion"
+
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 }
