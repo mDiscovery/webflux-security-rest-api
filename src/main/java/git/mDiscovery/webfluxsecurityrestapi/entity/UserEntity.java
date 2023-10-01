@@ -1,8 +1,16 @@
 package git.mDiscovery.webfluxsecurityrestapi.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.relational.core.mapping.Table;
 
 import java.time.LocalDateTime;
+@Data
+@Builder(toBuilder = true)
+@NoArgsConstructor
+@AllArgsConstructor
 @Table("users")
 public class UserEntity {
     private Long id;
