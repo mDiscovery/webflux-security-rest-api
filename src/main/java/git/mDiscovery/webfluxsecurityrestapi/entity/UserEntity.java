@@ -24,4 +24,8 @@ public class UserEntity {
     private boolean enabled;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
+
+    private String maskPassword() {
+        return "********";
+    }
 }
