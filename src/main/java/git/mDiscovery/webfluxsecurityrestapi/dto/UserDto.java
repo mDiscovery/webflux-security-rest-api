@@ -1,10 +1,13 @@
 package git.mDiscovery.webfluxsecurityrestapi.dto;
 
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import git.mDiscovery.webfluxsecurityrestapi.entity.UserRole;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 @Data
+@JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 public class UserDto {
     private Long id;
     private String username;
