@@ -1,4 +1,4 @@
 package git.mDiscovery.webfluxsecurityrestapi.mapper;
 
-public class UserMapper {
+public interface UserMapper {
 }
