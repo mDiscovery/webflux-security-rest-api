@@ -1,9 +1,10 @@
 package git.mDiscovery.webfluxsecurityrestapi.dto;
 
 import git.mDiscovery.webfluxsecurityrestapi.entity.UserRole;
+import lombok.Data;
 
 import java.time.LocalDateTime;
-
+@Data
 public class UserDto {
     private Long id;
     private String username;
