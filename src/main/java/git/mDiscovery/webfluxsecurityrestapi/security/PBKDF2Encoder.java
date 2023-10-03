@@ -1,7 +1,9 @@
 package git.mDiscovery.webfluxsecurityrestapi.security;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Component;
 
+@Component
 public class PBKDF2Encoder implements PasswordEncoder {
     @Override
     public String encode(CharSequence rawPassword) {
