@@ -11,3 +11,10 @@ spring:
     locations: classpath:db/migration
     user: ${spring.r2dbc.username}
     password: ${spring.r2dbc.password}
+
+jwt:
+  password:
+    encoder:
+      secret: f
+      encodingIteration: 64
+      keyLength: 256
