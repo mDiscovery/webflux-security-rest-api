@@ -16,5 +16,5 @@ jwt:
   password:
     encoder:
       secret: f
-      encodingIteration: 64
-      keyLength: 256
+      iterations: 64
+      keylength: 256
